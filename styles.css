@@ -123,8 +123,7 @@ ul {
 .activities .container {
     display: flex;
     justify-content: space-evenly;
-    min-width: 1100px;
-    margin
+    min-width: 1100px
 }
 
 .activities .container img {
@@ -141,4 +140,26 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote .container .credit {
+    font-style: normal;
+    font-weight: bold;
 }
